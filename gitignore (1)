@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+secrets.toml
+
+# ローカル版（APIキー入り）
+app_local.py
+app_v2.py
+app_fixed.py
+
+# macOS
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
